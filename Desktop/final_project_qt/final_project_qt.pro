@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-06-06T21:38:06
+# Project created by QtCreator 2018-06-15T20:33:55
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = grade_calculator
+TARGET = final_project_qt
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,10 +25,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        grade_calculator.cpp
+        mypainter.cpp
 
 HEADERS += \
-        grade_calculator.h
+        mypainter.h
 
 FORMS += \
-        grade_calculator.ui
+        mypainter.ui
